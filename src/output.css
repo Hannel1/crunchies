@@ -12,6 +12,8 @@
     --spacing: 0.25rem;
     --text-xl: 1.25rem;
     --text-xl--line-height: calc(1.75 / 1.25);
+    --text-2xl: 1.5rem;
+    --text-2xl--line-height: calc(2 / 1.5);
     --text-4xl: 2.25rem;
     --text-4xl--line-height: calc(2.5 / 2.25);
     --text-6xl: 3.75rem;
@@ -181,8 +183,38 @@
   .mt-2 {
     margin-top: calc(var(--spacing) * 2);
   }
+  .mt-3 {
+    margin-top: calc(var(--spacing) * 3);
+  }
   .mt-4 {
     margin-top: calc(var(--spacing) * 4);
+  }
+  .mt-20 {
+    margin-top: calc(var(--spacing) * 20);
+  }
+  .mt-40 {
+    margin-top: calc(var(--spacing) * 40);
+  }
+  .mb-3 {
+    margin-bottom: calc(var(--spacing) * 3);
+  }
+  .mb-3\.5 {
+    margin-bottom: calc(var(--spacing) * 3.5);
+  }
+  .mb-4 {
+    margin-bottom: calc(var(--spacing) * 4);
+  }
+  .mb-\[3\] {
+    margin-bottom: 3;
+  }
+  .ml-3 {
+    margin-left: calc(var(--spacing) * 3);
+  }
+  .ml-4 {
+    margin-left: calc(var(--spacing) * 4);
+  }
+  .ml-5 {
+    margin-left: calc(var(--spacing) * 5);
   }
   .flex {
     display: flex;
@@ -204,9 +236,6 @@
   }
   .h-fit {
     height: fit-content;
-  }
-  .w-7 {
-    width: calc(var(--spacing) * 7);
   }
   .w-72 {
     width: calc(var(--spacing) * 72);
@@ -241,6 +270,15 @@
   .justify-around {
     justify-content: space-around;
   }
+  .justify-center {
+    justify-content: center;
+  }
+  .justify-end {
+    justify-content: flex-end;
+  }
+  .justify-items-end {
+    justify-items: end;
+  }
   .gap-1 {
     gap: calc(var(--spacing) * 1);
   }
@@ -270,11 +308,8 @@
   .bg-\[red\] {
     background-color: red;
   }
-  .bg-\[u\] {
-    background-color: u;
-  }
-  .bg-\[url\'\/image\/Sharwama-min_botuhf\.jpg\'\] {
-    background-color: url'/image/Sharwama-min botuhf.jpg';
+  .bg-\[url9\] {
+    background-color: url9;
   }
   .bg-\[url\] {
     background-color: url;
@@ -285,6 +320,9 @@
   .bg-\[url\(\'\'\)\] {
     background-image: url('');
   }
+  .bg-\[url\(\'\/image\/Bread-min_brgaeo\.jpg\'\)\] {
+    background-image: url('/image/Bread-min_brgaeo.jpg');
+  }
   .bg-\[url\(\'\/image\/Cakes-min_rgqujz\.jpg\'\)\] {
     background-image: url('/image/Cakes-min_rgqujz.jpg');
   }
@@ -294,26 +332,14 @@
   .bg-\[url\(\'\/image\/Pastries-min_ov0lj2\.jpg\'\)\] {
     background-image: url('/image/Pastries-min_ov0lj2.jpg');
   }
+  .bg-\[url\(\'\/image\/Sharwama-min_botuhf\.jpg\'\)\] {
+    background-image: url('/image/Sharwama-min_botuhf.jpg');
+  }
   .bg-\[url\(\'\/image\/pp\.jpg\'\)\] {
     background-image: url('/image/pp.jpg');
   }
-  .bg-\[url\(\'i\'\)\] {
-    background-image: url('i');
-  }
-  .bg-\[url\(\'image\'\)\] {
-    background-image: url('image');
-  }
-  .bg-\[url\(\'image\/\'\)\] {
-    background-image: url('image/');
-  }
-  .bg-\[url\(\'image\/Sharwama-min_botuhf\'\)\] {
-    background-image: url('image/Sharwama-min_botuhf');
-  }
-  .bg-\[url\(\'image\/Sharwama-min_botuhf\.\'\)\] {
-    background-image: url('image/Sharwama-min_botuhf.');
-  }
-  .bg-\[url\(\'image\/Sharwama-min_botuhf\.j\'\)\] {
-    background-image: url('image/Sharwama-min_botuhf.j');
+  .bg-\[url\(\'image\/Bread-min_brgaeo\.jpg\'\)\] {
+    background-image: url('image/Bread-min_brgaeo.jpg');
   }
   .bg-\[url\(\'image\/Sharwama-min_botuhf\.jpg\'\)\] {
     background-image: url('image/Sharwama-min_botuhf.jpg');
@@ -348,6 +374,9 @@
   .text-center {
     text-align: center;
   }
+  .align-text-bottom {
+    vertical-align: text-bottom;
+  }
   .text-4xl {
     font-size: var(--text-4xl);
     line-height: var(--tw-leading, var(--text-4xl--line-height));
@@ -367,6 +396,9 @@
   .font-semibold {
     --tw-font-weight: var(--font-weight-semibold);
     font-weight: var(--font-weight-semibold);
+  }
+  .text-\[rd\] {
+    color: rd;
   }
   .text-\[red\] {
     color: red;
